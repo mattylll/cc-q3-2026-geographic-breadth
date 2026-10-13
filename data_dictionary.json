@@ -1,0 +1,52 @@
+{
+  "missing_values": "Empty CSV cells are missing/suppressed, not zero. Percentages are 0-100; ratios are fractions. No statistical independence is implied by rows.",
+  "tables": {
+    "pipeline_comparisons.csv": {
+      "rows": 8,
+      "fields": {
+        "geography": "Panel, England and Wales, or one of seven custom regional groups; panel and national rows overlap their regional rows. Do not sum both.",
+        "all_mentions_yoy_pct": "100*(Q3 2026 all mentions / Q3 2025 all mentions - 1).",
+        "filtered_mentions_yoy_pct": "100*(Q3 2026 filtered mentions / Q3 2025 filtered mentions - 1).",
+        "all_mentions_qoq_pct": "100*(Q3 2026 all mentions / Q2 2026 all mentions - 1).",
+        "filtered_mentions_qoq_pct": "100*(Q3 2026 filtered mentions / Q2 2026 filtered mentions - 1).",
+        "current_all_share_pct": "Regional Q3 2026 all mentions / panel Q3 2026 all mentions * 100.",
+        "current_filtered_share_pct": "Regional Q3 2026 filtered mentions / panel Q3 2026 filtered mentions * 100."
+      }
+    },
+    "planning_unit_sensitivity.csv": {
+      "rows": 24,
+      "fields": {
+        "geography": "Panel, England and Wales, or one of seven custom regional groups; panel and national rows overlap their regional rows. Do not sum both.",
+        "quarter": "Calendar transaction or decision quarter YYYY-Qn; charge quarter follows source methodology. Periods have different data vintages.",
+        "authorities": "Number of included planning authorities in this regional group. The Panel contains 253, including only seven in Wales.",
+        "all_approval_unit_mentions": "Source sum of units across approved application records. May include repeated stages, inferred quantities and non-dwelling units; missing quantities contribute zero. Not unique homes.",
+        "excluding_reserved_matters_unit_mentions": "Source unit sum after excluding case-insensitive proposal text match reserved matters. Not a deduplicated scheme pipeline.",
+        "removed_unit_mentions": "All approval unit mentions minus filtered mentions, count.",
+        "removed_pct": "100 * removed_unit_mentions / all_approval_unit_mentions."
+      }
+    }
+  },
+  "derived_tables": {
+    "common": {
+      "baseline": "2025-Q3 for annual, 2026-Q2 for quarterly; current is provisional2026-Q3",
+      "definition": "All mentions or excluding reserved-matters text matches",
+      "authorities": "Included authorities; stable source count is not proof of complete capture",
+      "change_mentions": "current_mentions minus prior_mentions",
+      "change_pct": "100*(current-prior)/prior; percent"
+    },
+    "leave_one_region_out.csv": {
+      "omitted_region": "Group removed from both periods",
+      "difference_from_full_pp": "Remaining percentage change minus whole-panel percentage change; percentage points",
+      "direction_reversed": "True only if remaining and full absolute changes have opposite signs; zero is not reversal"
+    },
+    "regional_contributions.csv": {
+      "contribution_pp": "100*(regional current-regional prior)/full-panel prior; additive percentage-point contribution to full-panel change",
+      "change_pct": "Regional own percentage change, not contribution"
+    },
+    "panel_comparisons.csv": {
+      "groups_falling": "Unweighted number of custom regional groups with negative change; not a population statistic",
+      "groups_rising": "Groups with positive change",
+      "groups_unchanged": "Groups with zero change"
+    }
+  }
+}

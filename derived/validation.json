@@ -1,0 +1,12 @@
+{
+  "source_rows": 24,
+  "groups": 7,
+  "full_comparisons": 4,
+  "omission_comparisons": 28,
+  "regional_contributions": 28,
+  "aggregate_reconciliation": true,
+  "additive_contributions": true,
+  "authority_counts_stable": true,
+  "direction_reversals": 0,
+  "source_sha256": "475ac08a8f53baeaa42149f465ef352fd7f840834cb2464d06c90ea1f9b9fef6"
+}

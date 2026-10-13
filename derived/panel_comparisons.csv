@@ -1,0 +1,5 @@
+baseline,current,definition,omitted_region,authorities,groups,prior_mentions,current_mentions,change_mentions,change_pct,groups_falling,groups_rising,groups_unchanged
+2025-Q3,2026-Q3,All recorded mentions,None,253,7,66504,49629,-16875,-25.374413569108626,6,1,0
+2025-Q3,2026-Q3,Exclude reserved-matters text matches,None,253,7,47693,34775,-12918,-27.0857358522215,5,2,0
+2026-Q2,2026-Q3,All recorded mentions,None,253,7,62674,49629,-13045,-20.814053674569998,5,2,0
+2026-Q2,2026-Q3,Exclude reserved-matters text matches,None,253,7,48581,34775,-13806,-28.418517527428417,5,2,0

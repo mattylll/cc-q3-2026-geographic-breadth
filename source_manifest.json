@@ -1,0 +1,23 @@
+{
+  "research_id": "CC-DF-2026Q3-C05",
+  "version": "1.0",
+  "author": "Matt Lenzie",
+  "affiliation": "Construction Capital",
+  "prepared_on": "2026-10-13",
+  "source_edition": "2026-10-05",
+  "source_study": "CC-DF-2026Q3-04",
+  "source_url": "https://huggingface.co/datasets/constructioncapital/q3-2026-planning-pipeline-definition-sensitivity",
+  "source_csv": "planning_unit_sensitivity.csv",
+  "source_csv_sha256": "475ac08a8f53baeaa42149f465ef352fd7f840834cb2464d06c90ea1f9b9fef6",
+  "source_commit": "44ec7821f8bac827de198d09b4cca66725eae055",
+  "reproduction_scope": "Begins from the published selected aggregate CSV. Does not reconstruct upstream Landstack ingestion or validate individual application records.",
+  "source_rows": 24,
+  "quarters": [
+    "2025-Q3",
+    "2026-Q2",
+    "2026-Q3"
+  ],
+  "provisional_quarter": "2026-Q3",
+  "new_independent_study": false,
+  "private_data": "No identities, addresses, lender mapping or application-level data. No user data upload or financial calculation inputs."
+}

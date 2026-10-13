@@ -1,0 +1,7 @@
+LICENSING AND ATTRIBUTION
+
+Original report text, charts and analytical explanations: copyright 2026 Matt Lenzie / Construction Capital, licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Attribute the author, report title, version and source platform, and identify changes. This licence does not imply endorsement.
+
+Original reproduce.py code: MIT licence. Permission is granted, free of charge, to use, copy, modify, merge, publish, distribute, sublicense and/or sell copies of this software, subject to retaining this notice. THE SOFTWARE IS PROVIDED AS IS, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
+
+Planning aggregates originate in Construction Capital's Landstack-derived export. The publisher supplies the selected aggregates and calculations as supporting research evidence; no blanket Open Government Licence, CC0 dedication or upstream commercial-data licence is asserted. Rights in the underlying source remain with their respective holders. This deposit does not grant rights to the underlying Landstack database or application-level material. Consult the source rights holder for redistribution beyond applicable rights.

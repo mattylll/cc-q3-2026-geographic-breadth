@@ -1,0 +1,12 @@
+COMPONENT RIGHTS | CC-DF-2026Q3-C05
+
+Original commentary and explanatory design: Copyright 2026 Matt Lenzie / Construction Capital. CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Credit the author, title, version and source; identify changes. No endorsement implied.
+
+Source aggregate CSV and derived data: See SOURCE-LICENSE.txt. Selected aggregates originate in Construction Capital's Landstack-derived export. Rights in underlying source remain with their holders. No blanket OGL, CC0 or licence to redistribute the upstream commercial database is granted. The definition-threshold calculations do not erase underlying rights.
+
+Original application and reproduction code: MIT License
+Copyright (c) 2026 Matt Lenzie / Construction Capital
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
