@@ -1,0 +1,24 @@
+{
+  "source": "CC-DF-2026Q3-01, ICPSR study 317061 V1, edition 2026-10-05",
+  "scope": "24 observations: Panel plus seven custom regions, across 2025-Q3, 2026-Q2 and 2026-Q3. Panel overlaps all regional rows; never sum both.",
+  "flow_comparison.csv": {
+    "geography": "Panel or one of seven custom regional groups",
+    "quarter": "Quarter in YYYY-Qn format; three selected quarters, not a continuous time series",
+    "authorities": "Included authority count; 253 across Panel and seven in Wales",
+    "received": "Recorded applications received during the quarter",
+    "known_decisions": "Recorded approval plus refusal decisions during the quarter; a separate event population from receipts",
+    "decisions_minus_receipts": "known_decisions minus received. An activity balance, not a measured backlog change",
+    "known_decisions_per_100_receipts": "100 * known_decisions / received, rounded to six decimal places. Neither a cohort completion rate, approval probability nor speed measure"
+  },
+  "flow_change_decomposition.csv": {
+    "geography": "Panel or one of seven custom regional groups",
+    "known_decision_change": "Q3 2026 known decisions minus Q3 2025 known decisions",
+    "receipt_change": "Q3 2026 receipts minus Q3 2025 receipts",
+    "decision_contribution_to_balance_change": "known_decision_change",
+    "receipt_contribution_to_balance_change": "minus receipt_change",
+    "balance_change": "Q3 2026 decisions-minus-receipts minus Q3 2025 decisions-minus-receipts; exact sum of two contributions",
+    "known_decision_change_pct": "100 * known_decision_change / Q3 2025 known decisions",
+    "receipt_change_pct": "100 * receipt_change / Q3 2025 receipts"
+  },
+  "missingness": "No missing counts in selected input. Unknown outcomes are recorded categories, not an estimate of uncaptured records. Zero and missing are not interchangeable."
+}

@@ -1,0 +1,9 @@
+geography,known_decision_change,receipt_change,decision_contribution_to_balance_change,receipt_contribution_to_balance_change,balance_change,known_decision_change_pct,receipt_change_pct
+Panel,-911,-2871,-911,2871,1960,-9.429666,-26.211997
+East of England,-73,-242,-73,242,169,-10.641399,-31.145431
+London & South East,-103,-1019,-103,1019,916,-2.747399,-23.747378
+Midlands,-272,-456,-272,456,184,-16.504854,-24.037955
+North East & Yorkshire,-102,-277,-102,277,175,-10.658307,-27.344521
+North West,-73,-385,-73,385,312,-8.257919,-34.591195
+South West,-256,-430,-256,430,174,-16.494845,-25.872443
+Wales,-32,-62,-32,62,30,-17.297297,-31.0
