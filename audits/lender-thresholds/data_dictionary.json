@@ -1,0 +1,21 @@
+{
+  "missing_values": "Empty CSV cells are missing/suppressed, not zero. Percentages are 0-100; ratios are fractions. No statistical independence is implied by rows.",
+  "tables": {
+    "charge_breadth_concentration.csv": {
+      "rows": 28,
+      "fields": {
+        "cohort": "Curated specialist lender series or wider mixed property-funding ecosystem. Cohorts overlap; never add together.",
+        "quarter": "Calendar transaction or decision quarter YYYY-Qn; charge quarter follows source methodology. Periods have different data vintages.",
+        "charges": "Recorded charges in source cohort and quarter. Not monetary lending, unique new loans or site count.",
+        "borrowers": "Source distinct corporate borrower count in cohort and quarter; not deduplicated developer groups.",
+        "charges_per_borrower": "charges / borrowers for same cohort-quarter.",
+        "active_lenders": "Source lender count meeting >=3 recorded charges in quarter; retained aggregate.",
+        "any_activity_lenders": "Source lender count with >=1 recorded charge in quarter; retained aggregate.",
+        "top5_share_pct": "Source aggregate share of charges attributed to five largest contributors, rounded percentage. Cannot reconstruct from public lender-level data, which are not supplied.",
+        "top10_share_pct": "Source aggregate share of charges attributed to ten largest contributors, rounded percentage.",
+        "hhi": "Source Herfindahl-Hirschman statistic, retained aggregate. No competition-law classification applied.",
+        "provisional": "True for Q3 2026 charge data. Later filings can revise counts and shares."
+      }
+    }
+  }
+}

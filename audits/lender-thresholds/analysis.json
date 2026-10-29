@@ -1,0 +1,29 @@
+{
+  "rows": 28,
+  "summary": [
+    {
+      "cohort": "specialist",
+      "q3_2025_any": 14,
+      "q3_2026_any": 14,
+      "q3_2025_active": 13,
+      "q3_2026_active": 13,
+      "q3_any_change": 0,
+      "q3_active_change": 0,
+      "quarters_with_threshold_gap": 9,
+      "largest_excluded_share_quarter": "2024-Q1",
+      "largest_excluded_share_pct": "33.333333"
+    },
+    {
+      "cohort": "ecosystem",
+      "q3_2025_any": 37,
+      "q3_2026_any": 38,
+      "q3_2025_active": 36,
+      "q3_2026_active": 36,
+      "q3_any_change": 1,
+      "q3_active_change": 0,
+      "quarters_with_threshold_gap": 12,
+      "largest_excluded_share_quarter": "2024-Q1",
+      "largest_excluded_share_pct": "15.384615"
+    }
+  ]
+}

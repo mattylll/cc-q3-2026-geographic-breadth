@@ -1,0 +1,7 @@
+LICENSING AND ATTRIBUTION
+
+Original report text, charts and analytical explanations: copyright 2026 Matt Lenzie / Construction Capital, licensed CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Attribute the author, report title, version and source platform, and identify changes. This licence does not imply endorsement.
+
+Original reproduce.py code: MIT licence. Permission is granted, free of charge, to use, copy, modify, merge, publish, distribute, sublicense and/or sell copies of this software, subject to retaining this notice. THE SOFTWARE IS PROVIDED AS IS, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
+
+Companies House is the underlying public-register source. This package contains Construction Capital's curated aggregate statistics and derived tables, supplied as supporting research evidence. It does not grant rights in external source databases or reveal the private lender mapping. Original analytical tables are licensed CC BY 4.0; any underlying third-party rights remain with their holders.
