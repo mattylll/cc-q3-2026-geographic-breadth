@@ -1,0 +1,17 @@
+{
+  "geography": "Panel or one of seven custom reporting groups; not official nine English regions",
+  "authorities": "Matched authority count retained in both selected periods",
+  "approved_2025_q3": "Approved application records in Q3 2025",
+  "approved_2026_q3": "Approved application records in provisional Q3 2026",
+  "approved_change_count": "2026 approvals minus 2025 approvals",
+  "approved_change_pct": "100 * (2026 approvals / 2025 approvals - 1)",
+  "known_decisions_2025_q3": "Approved plus refused in Q3 2025",
+  "known_decisions_2026_q3": "Approved plus refused in Q3 2026",
+  "known_decisions_change_pct": "100 * (2026 known decisions / 2025 known decisions - 1)",
+  "approval_rate_2025_pct": "100 * 2025 approved / 2025 known decisions",
+  "approval_rate_2026_pct": "100 * 2026 approved / 2026 known decisions",
+  "approval_rate_change_pp": "2026 rate minus 2025 rate, percentage points",
+  "rate_up_count_down": "True when approval rate increases and approval count decreases",
+  "approvals_at_2025_rate_2026_decision_volume": "2026 known decisions times unrounded 2025 rate; fractional result is a benchmark, not an observed record count",
+  "actual_approvals_minus_fixed_rate_benchmark": "2026 observed approvals minus fixed-rate benchmark; not causal attribution"
+}

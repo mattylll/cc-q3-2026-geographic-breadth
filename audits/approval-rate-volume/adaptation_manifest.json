@@ -1,0 +1,26 @@
+{
+  "research_id": "CC-DF-2026Q3-A06",
+  "prepared_on": "2026-11-02",
+  "title": "Development Finance: Why a Higher Planning Approval Rate Can Still Mean Fewer Approvals",
+  "source_study": "CC-DF-2026Q3-01",
+  "source_edition": "2026-10-05",
+  "upstream_commit": "44ec7821f8bac827de198d09b4cca66725eae055",
+  "source_csv_sha256": "a7c2bee4bd9e6f5876e5fb6b7ef012580edf6b43252004d06c3ee086cd8eb5b8",
+  "original_source_manifest": "source_manifest.json",
+  "new_observations": false,
+  "independent_study": false,
+  "reproducibility": "Public aggregate inputs only",
+  "files": {
+    "LICENSE.txt": "5da4f95afa24fffa6d63e301e1d20ee045e7f5385c48edaafd578b1146a8a4bb",
+    "README.txt": "17951124b2315ca9061647c25fd6d52a2829aa3e9e5e797e9619bf8e649ee382",
+    "build_chart.py": "6770b09fc00d09e9c98c6b92bcec1c19a3ebc558c05ba5779a38fe9df86402ad",
+    "data_dictionary.json": "bbd3b4d804e4630bbf1c9a9e92f941cf56cebccc0c8e466f8d8e9b417ce4ff66",
+    "derived/rate-volume.png": "7da995a27ccd123479d5e5a76fa430cd77d998530494dbe3e21e1a29c53fa309",
+    "derived/rate_volume_comparison.csv": "6fcf9401a5be219911bea8b8f1216346f9b8a4c9d0c45eac3c6ed4f61339dd31",
+    "derived/selected_source_rows.csv": "50ba090591f3405a2f9e3bdcca53a524090273fe3f9abca0252850ac728d20a3",
+    "derived/summary.json": "efcdf87e732f1661c17a05307e12b2c0c84c1420e38254ffc769a4ba338cb02a",
+    "planning_decisions.csv": "a7c2bee4bd9e6f5876e5fb6b7ef012580edf6b43252004d06c3ee086cd8eb5b8",
+    "reproduce.py": "8431f4093a6136b06f1b2187e79033d3172523bac5bb7e254210422ba30ebc4c",
+    "source_manifest.json": "5159a34eda647cca3239370e8b3b7981a9c74a92d9a0a4b2f136da9596ddbbfa"
+  }
+}

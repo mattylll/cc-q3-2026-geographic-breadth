@@ -1,0 +1,31 @@
+{
+  "source_rows": 24,
+  "selected_rows": 16,
+  "comparison_rows": 8,
+  "regional_groups": 7,
+  "source_edition": "2026-10-05",
+  "source_csv_sha256": "a7c2bee4bd9e6f5876e5fb6b7ef012580edf6b43252004d06c3ee086cd8eb5b8",
+  "all_seven_regions_fewer_approvals": true,
+  "higher_rate_fewer_approvals": [
+    "South West"
+  ],
+  "south_west": {
+    "geography": "South West",
+    "authorities": 23,
+    "approved_2025_q3": 1177,
+    "approved_2026_q3": 1025,
+    "approved_change_count": -152,
+    "approved_change_pct": -12.91418861512319,
+    "known_decisions_2025_q3": 1552,
+    "known_decisions_2026_q3": 1296,
+    "known_decisions_change_pct": -16.49484536082474,
+    "approval_rate_2025_pct": 75.83762886597938,
+    "approval_rate_2026_pct": 79.0895061728395,
+    "approval_rate_change_pp": 3.251877306860129,
+    "rate_up_count_down": true,
+    "approvals_at_2025_rate_2026_decision_volume": 982.8556701030927,
+    "actual_approvals_minus_fixed_rate_benchmark": 42.144329896907266
+  },
+  "interpretation": "Fixed-rate benchmark is an arithmetic comparison, not an estimate of causality or missing approvals.",
+  "reproducibility_boundary": "Published aggregate rows only; no upstream re-extraction or case-level audit."
+}
