@@ -11,3 +11,7 @@ No seasonal adjustment or inference about duration, project probability or lendi
 Original report/chart CC BY4.0; code MIT; aggregate source rights remain reserved as in LICENSE.txt.
 
 Chart: run python build_chart.py after reproducing the CSV. Requires Pillow and the specified Arial font paths, which can be replaced with local fonts.
+
+Public visual report on Microsoft Sway:
+https://sway.cloud.microsoft/7HIpa9uJzFtx7oIQ
+Same author and source edition as this supporting package.
