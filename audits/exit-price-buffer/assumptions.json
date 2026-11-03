@@ -1,0 +1,23 @@
+{
+  "classification": "HYPOTHETICAL ILLUSTRATION, not an observed scheme, valuation, forecast or lender offer",
+  "units": 20,
+  "assumed_base_price_per_home_gbp": 300000,
+  "base_gdv_gbp": 6000000,
+  "assumed_total_project_costs_gbp": 5400000,
+  "cost_scope": "Assumed all project costs, including land, construction, professional fees, disposal and finance allowances, before tax; no component amounts or market rates are claimed.",
+  "price_changes_pct": [
+    -15,
+    -10,
+    -5,
+    0,
+    5
+  ],
+  "cost_changes_pct": [
+    0,
+    2.5,
+    5
+  ],
+  "held_constant": "Unit count and other assumptions; cost changes are applied to the full assumed cost total. No programme/drawdown/cash-flow/tax/loan-sizing model.",
+  "source_edition": "2026-10-05",
+  "observational_source_study": "CC-DF-2026Q3-03"
+}

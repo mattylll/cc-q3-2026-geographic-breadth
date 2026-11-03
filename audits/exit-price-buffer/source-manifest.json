@@ -1,0 +1,22 @@
+{
+  "research_id": "CC-DF-2026Q3-A07",
+  "source_studies": [
+    "CC-DF-2026Q3-03",
+    "CC-DF-2026Q3-01"
+  ],
+  "source_edition": "2026-10-05",
+  "upstream_commit": "44ec7821f8bac827de198d09b4cca66725eae055",
+  "observed_input": {
+    "path": "recorded_sales.csv",
+    "sha256": "61240f34c7d59bc6a596b72b696e653a21a119fd93051588c3ac83c53266b412",
+    "retained_rows": 8,
+    "latest_transaction": "2026-08-28",
+    "q3_provisional": true
+  },
+  "scenario_input": "assumptions.json, hypothetical",
+  "model_output_rows": 15,
+  "source_rights": "Underlying market data source rights retained. No blanket database licence.",
+  "new_observations": false,
+  "independent_study": false,
+  "public_url": null
+}
