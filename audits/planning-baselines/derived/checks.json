@@ -1,0 +1,13 @@
+{
+  "source_rows": 24,
+  "comparison_rows": 8,
+  "authorities": 253,
+  "quarterly_increases": [
+    "East of England",
+    "London & South East",
+    "North East & Yorkshire"
+  ],
+  "regions_below_annual_baseline": 7,
+  "panel_quarterly_change": -125,
+  "panel_annual_change": -969
+}

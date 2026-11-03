@@ -1,0 +1,3 @@
+planning_decisions.csv: frozen source table unchanged from study01. geography=Panel or one of seven custom groups; quarter=calendar quarter; authorities=panel size; approved=approved application records. Other columns retained for source integrity; not used for the headline comparison.
+
+regional_approval_baselines.csv: geography, authorities; approved_2025_q3, approved_2026_q2, approved_2026_q3 are counts; quarterly_change and annual_change are differences in counts; *_change_pct are percentages; index_* are dimensionless Q3 2025=100; comparison labels describe the two observed directions, not a prediction.

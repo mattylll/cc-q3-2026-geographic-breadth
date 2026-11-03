@@ -1,0 +1,14 @@
+{
+  "research_id": "CC-DF-2026Q3-P08",
+  "source_study": "CC-DF-2026Q3-01",
+  "source_edition": "2026-10-05",
+  "upstream_commit": "44ec7821f8bac827de198d09b4cca66725eae055",
+  "upstream_access": "Private. Public reproduction begins from included planning_decisions.csv.",
+  "source_sha256": "a7c2bee4bd9e6f5876e5fb6b7ef012580edf6b43252004d06c3ee086cd8eb5b8",
+  "source_rows": 24,
+  "derived_rows": 8,
+  "units": "Approved application records. Not unique developments, dwellings, starts or funded schemes.",
+  "coverage": "Matched 253-authority panel in seven custom regional groups; not a national census.",
+  "code": "python reproduce.py --output reproduced",
+  "source_rights": "See LICENSE.txt; no blanket upstream commercial-data licence is asserted."
+}
