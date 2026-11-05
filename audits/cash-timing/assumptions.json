@@ -1,0 +1,40 @@
+{
+  "classification": "HYPOTHETICAL ILLUSTRATION, not an observed scheme or market forecast",
+  "homes": 10,
+  "assumed_price_per_home_gbp": 400000,
+  "total_sales_gbp": 4000000,
+  "upfront_cost_month_0_gbp": 1000000,
+  "monthly_cost_months_1_to_10_gbp": 240000,
+  "total_costs_before_finance_and_tax_gbp": 3400000,
+  "sales_schedules": {
+    "late_receipts": {
+      "12": 4000000
+    },
+    "phased_receipts": {
+      "7": 800000,
+      "8": 800000,
+      "9": 800000,
+      "10": 800000,
+      "12": 800000
+    },
+    "phased_two_months_later": {
+      "9": 800000,
+      "10": 800000,
+      "11": 800000,
+      "12": 800000,
+      "14": 800000
+    }
+  },
+  "convention": "Within each month, all costs paid before that month sales receipts. Peak is measured at this pre-receipt point, not only month end.",
+  "programme": "Phased sales assume the relevant homes can be completed and sold on the illustrative dates. No construction-feasibility model.",
+  "cash_use": "Sales receipts treated as available to meet project costs; no lender redemption waterfall, release conditions, retentions or restrictions.",
+  "excluded": [
+    "Debt and equity contributions",
+    "Interest and finance fees",
+    "Tax and VAT",
+    "Discounting",
+    "Changes in prices, costs or build programme between scenarios"
+  ],
+  "month_basis": "Relative project months 0 to 14, not calendar quarters",
+  "price_source": "Chosen illustration, not derived from the Q3 median or an actual development valuation"
+}

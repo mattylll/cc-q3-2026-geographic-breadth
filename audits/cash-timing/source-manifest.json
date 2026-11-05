@@ -1,0 +1,13 @@
+{
+  "research_id": "CC-DF-2026Q3-A08",
+  "source_study": "CC-DF-2026Q3-03",
+  "source_edition": "2026-10-05",
+  "observed_context_rows": 8,
+  "context_sha256": "cf0d1fee4f6ac9fd881ea9682ed971abca4ffcf232a18caed9ebef451552ff85",
+  "hypothetical_scenarios": 3,
+  "monthly_rows": 45,
+  "new_market_observations": false,
+  "independent_study": false,
+  "public_url": null,
+  "source_rights": "Retained market aggregates preserve original source rights; model CC BY4.0, code MIT."
+}

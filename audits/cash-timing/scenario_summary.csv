@@ -1,0 +1,4 @@
+data_type,scenario,label,first_receipt_month,last_receipt_month,total_receipts_gbp,total_project_costs_gbp,surplus_before_finance_and_tax_gbp,peak_pre_receipt_cash_deficit_gbp,first_peak_month,peak_month_end_cash_deficit_gbp
+hypothetical_scenario,late_receipts,All sales in month 12,12,12,4000000,3400000,600000,3400000,10,3400000
+hypothetical_scenario,phased_receipts,Phased sales from month 7,7,12,4000000,3400000,600000,2680000,7,2440000
+hypothetical_scenario,phased_two_months_later,Phased receipts two months later,9,14,4000000,3400000,600000,3160000,9,2920000
