@@ -1,0 +1,48 @@
+{
+  "template_id": "CC-DF-2026Q3-A11-condition-log-v1",
+  "prepared_on": "2026-11-24",
+  "geography": "England",
+  "licence": "CC BY 4.0",
+  "author": "Matt Lenzie / Construction Capital",
+  "scope": "Blank organisational template. No observed project data, automatic legal status or lender acceptance. Keep completed project information private.",
+  "field_definitions": {
+    "entry_id": "Unique internal reference.",
+    "record_type": "condition, planning_obligation, other_contribution or unresolved; have the category reviewed.",
+    "permission_or_agreement_reference": "Exact project document reference; do not assume relevance from a search result.",
+    "document_version_and_date": "Version/date of the source used for this entry.",
+    "source_requirement_text": "Relevant wording, retained in the private project copy.",
+    "trigger_interpretation": "Working interpretation and any unresolved scope or timing question.",
+    "required_deliverable": "Specific evidence or task still required.",
+    "task_owner": "Person responsible for obtaining the deliverable.",
+    "submission_date": "Actual date if submitted; blank is unknown, not complete.",
+    "response_record": "Reference/date/outcome of actual response; separate from submission.",
+    "continuing_action": "Action still required after any recorded approval, if applicable.",
+    "programme_activity": "Activity or phase potentially dependent on the entry.",
+    "target_date_and_basis": "Target date, whether assumed or confirmed, and basis.",
+    "funding_question": "Separate question to resolve for the relevant finance stage/document.",
+    "evidence_reference": "Private file/location reference for the actual supporting evidence.",
+    "reviewer_and_review_date": "Person checking the entry and date of that review.",
+    "next_action_and_review_date": "Unresolved step and next review date."
+  },
+  "entries": [
+    {
+      "entry_id": null,
+      "record_type": null,
+      "permission_or_agreement_reference": null,
+      "document_version_and_date": null,
+      "source_requirement_text": null,
+      "trigger_interpretation": null,
+      "required_deliverable": null,
+      "task_owner": null,
+      "submission_date": null,
+      "response_record": null,
+      "continuing_action": null,
+      "programme_activity": null,
+      "target_date_and_basis": null,
+      "funding_question": null,
+      "evidence_reference": null,
+      "reviewer_and_review_date": null,
+      "next_action_and_review_date": null
+    }
+  ]
+}
