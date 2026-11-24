@@ -1,0 +1,29 @@
+{
+  "title": "Blank cost-risk register",
+  "licence": "CC BY 4.0",
+  "rules": [
+    "Null means unrecorded, not zero.",
+    "Record only incremental additions above existing provisions.",
+    "Do not add overlapping alternatives without an explicit scenario.",
+    "Move confirmed additions into the forecast and revise the related risk entry to avoid double counting."
+  ],
+  "entries": [
+    {
+      "item_id": null,
+      "description": null,
+      "category": null,
+      "status": null,
+      "source_reference": null,
+      "source_date": null,
+      "review_date": null,
+      "owner": null,
+      "included_in_base": null,
+      "original_included_amount_gbp": null,
+      "incremental_confirmed_amount_gbp": null,
+      "unresolved_risk_amount_gbp": null,
+      "overlap_or_dependency": null,
+      "next_action": null,
+      "decision_log": null
+    }
+  ]
+}

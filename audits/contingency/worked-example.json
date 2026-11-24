@@ -1,0 +1,44 @@
+{
+  "research_id": "CC-DF-2026Q3-A10",
+  "classification": "Hypothetical illustration, not observed project data",
+  "currency": "GBP",
+  "original_base_gbp": 2000000,
+  "original_contingency_gbp": 100000,
+  "original_budget_gbp": 2100000,
+  "confirmed_additions": [
+    {
+      "item_id": "EX01",
+      "description": "Previously omitted work now confirmed",
+      "incremental_gbp": 35000
+    },
+    {
+      "item_id": "EX02",
+      "description": "Confirmed specification change",
+      "incremental_gbp": 25000
+    },
+    {
+      "item_id": "EX03",
+      "description": "Utility connection increment above original provision",
+      "incremental_gbp": 20000
+    }
+  ],
+  "confirmed_additions_gbp": 80000,
+  "updated_forecast_gbp": 2080000,
+  "remaining_headroom_gbp": 20000,
+  "headroom_pct_original_base": 1.0,
+  "headroom_pct_updated_forecast": 0.9615384615384616,
+  "additional_stress_gbp": 60000,
+  "stressed_forecast_gbp": 2140000,
+  "stressed_budget_excess_gbp": 40000,
+  "exclusions": [
+    "land",
+    "professional fees",
+    "finance",
+    "sales costs",
+    "tax",
+    "funding availability",
+    "payment timing",
+    "risk probabilities"
+  ],
+  "licence": "CC BY 4.0"
+}
