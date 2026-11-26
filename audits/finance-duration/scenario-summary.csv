@@ -1,0 +1,7 @@
+scenario_id,pricing_case,equal_months,fully_drawn_principal_gbp,assumed_nominal_annual_rate,assumed_one_off_cash_fee_rate,monthly_cash_interest_gbp,separate_cash_fee_gbp,total_cash_interest_gbp,total_finance_cost_excluding_principal_gbp,principal_repaid_at_final_period_end_gbp
+A-18,A,18,1200000.00,0.09,0.01,9000.00,12000.00,162000.00,174000.00,1200000.00
+A-19,A,19,1200000.00,0.09,0.01,9000.00,12000.00,171000.00,183000.00,1200000.00
+A-20,A,20,1200000.00,0.09,0.01,9000.00,12000.00,180000.00,192000.00,1200000.00
+B-18,B,18,1200000.00,0.08,0.015,8000.00,18000.00,144000.00,162000.00,1200000.00
+B-19,B,19,1200000.00,0.08,0.015,8000.00,18000.00,152000.00,170000.00,1200000.00
+B-20,B,20,1200000.00,0.08,0.015,8000.00,18000.00,160000.00,178000.00,1200000.00

@@ -1,0 +1,26 @@
+All currency columns are GBP. All data are hypothetical.
+scenario_id: Pricing-case letter plus the number of equal monthly periods.
+pricing_case: A or B; invented terms from scenarios.json, never a lender ID.
+equal_months: Number of periods, each1/12year; not actual calendar months/days.
+fully_drawn_principal_gbp: Constant outstanding principal before repayment.
+assumed_nominal_annual_rate: Decimal annual simple rate, e.g.0.09 means9%.
+assumed_one_off_cash_fee_rate: Decimal fee rate applied once to principal.
+monthly_cash_interest_gbp: Principal multiplied by annual rate, divided by12.
+separate_cash_fee_gbp: Principal multiplied by fee rate, paid once separately.
+total_cash_interest_gbp: Sum of all monthly interest, excluding fees/principal.
+total_finance_cost_excluding_principal_gbp: Interest plus separate fee.
+principal_repaid_at_final_period_end_gbp: Principal returned at end of term;
+excluded from finance costs. No intermediate principal repayments modelled.
+
+Monthly file:
+equal_month: Period number, starting at1.
+starting_drawn_principal_gbp: Principal outstanding at that period start.
+cash_interest_gbp: Interest for that single equal period, paid in cash.
+separate_cash_fee_gbp: Full one-off fee in period1, zero in later periods.
+principal_repaid_at_period_end_gbp: Full principal in final period, otherwise0.
+finance_cost_excluding_principal_gbp: Period interest plus fee; no principal.
+cumulative_finance_cost_excluding_principal_gbp: Running sum of period costs.
+
+model-results.json has separately named same-horizon pricing and
+delay-versus-earlier-budget comparisons.1.5equal periods is an arithmetic
+coverage threshold, not45calendar days, a grace period or an extension right.

@@ -1,0 +1,37 @@
+{
+  "research_id": "CC-DF-2026Q3-A12",
+  "prepared_on": "2026-11-26",
+  "model_inputs": "scenarios.json; all invented, no empirical lending data",
+  "q3_source_commit": "44ec7821f8bac827de198d09b4cca66725eae055",
+  "q3_source_freeze": "2026-10-05",
+  "context_only": [
+    {
+      "id": "CC-DF-2026Q3-03",
+      "url": "https://www.kaggle.com/datasets/constructioncapital/q3-2026-housing-sales-registration-lag-and-mix",
+      "limit": "Provisional registrations;61,717retainedrecords,latest28Aug,noSeptember; not listing/sale duration."
+    },
+    {
+      "id": "CC-DF-2026Q3-04",
+      "url": "https://huggingface.co/datasets/constructioncapital/q3-2026-planning-pipeline-definition-sensitivity",
+      "limit": "Filtered unit mentions, not project programme/readyhomes."
+    }
+  ],
+  "calculation": "Principal * nominal annual rate * equal monthly periods /12 + principal * one-off fee rate",
+  "model_results": {
+    "pricing_saving_B_vs_A_same_18_months_gbp": "12000.00",
+    "additional_B_cost_20_vs_18_months_gbp": "16000.00",
+    "B20_excess_against_original_A18_budget_gbp": "4000.00",
+    "pricing_saving_B_vs_A_same_20_months_gbp": "14000.00",
+    "assumed_B_extra_equal_months_covered_by_18_month_pricing_saving": "1.5",
+    "rows": {
+      "summary": 6,
+      "monthly_schedule": 114
+    },
+    "scope": "Entirely hypothetical. Same-horizon pricing and delay-versus-original-budget comparisons are separate. Not lender quotes, a valuation, market rates, a delay forecast or a funding recommendation."
+  },
+  "licences": {
+    "model_inputs_outputs_guide": "CC BY4.0",
+    "reproduce.py": "MIT",
+    "original_Q3_sources": "Existing record rights retained"
+  }
+}

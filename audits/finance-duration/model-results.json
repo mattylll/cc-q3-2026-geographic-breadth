@@ -1,0 +1,12 @@
+{
+  "pricing_saving_B_vs_A_same_18_months_gbp": "12000.00",
+  "additional_B_cost_20_vs_18_months_gbp": "16000.00",
+  "B20_excess_against_original_A18_budget_gbp": "4000.00",
+  "pricing_saving_B_vs_A_same_20_months_gbp": "14000.00",
+  "assumed_B_extra_equal_months_covered_by_18_month_pricing_saving": "1.5",
+  "rows": {
+    "summary": 6,
+    "monthly_schedule": 114
+  },
+  "scope": "Entirely hypothetical. Same-horizon pricing and delay-versus-original-budget comparisons are separate. Not lender quotes, a valuation, market rates, a delay forecast or a funding recommendation."
+}

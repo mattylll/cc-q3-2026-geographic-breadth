@@ -1,0 +1,23 @@
+{
+  "research_id": "CC-DF-2026Q3-A12",
+  "prepared_on": "2026-11-26",
+  "author": "Matt Lenzie / Construction Capital",
+  "licence": "CC BY 4.0 for original model inputs and outputs; reproduction code MIT",
+  "data_type": "Wholly synthetic educational illustration; no observed lending data",
+  "principal_gbp": "1200000",
+  "pricing_cases": [
+    {"id": "A", "assumed_nominal_annual_rate": "0.09", "assumed_one_off_cash_fee_rate": "0.01"},
+    {"id": "B", "assumed_nominal_annual_rate": "0.08", "assumed_one_off_cash_fee_rate": "0.015"}
+  ],
+  "equal_month_periods": [18, 19, 20],
+  "assumptions": [
+    "The full principal is drawn before the first period and stays outstanding until the end of the last period.",
+    "Each period is exactly one twelfth of a year; no actual calendar dates or day-count convention are modelled.",
+    "Interest is paid separately in cash each period; it is simple interest and does not compound or increase debt.",
+    "The single fee is assumed paid separately in cash once, in period1; it never increases interest-bearing principal.",
+    "Principal is repaid once at the final period end; principal repayment is excluded from finance-cost totals.",
+    "There are no extension or exit fees, minimum-interest provisions, rate changes, interim repayments or other charges.",
+    "The model does not establish that an extension is available or permitted by any loan agreement."
+  ],
+  "comparison_rule": "Compare A and B at the same duration when comparing pricing. Compare B20 with A18 only to measure delay exposure against an earlier assumed budget, not to rank equivalent offers."
+}
